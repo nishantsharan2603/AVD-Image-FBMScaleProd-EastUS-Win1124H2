@@ -46,7 +46,7 @@ source "azure-arm" "win11_24h2_avd_fbmscaleprod" {
         resource_group      = "fbm-scale-americas-avd"
         gallery_name        = "acgazeasavdfbmscaleprod01"
         image_name          = "azure_windows_11_baseos_avd_24h2_prodeastus_gen2"
-        image_version       = "16.11.2025"
+        image_version       = "16.12.2025"
         replication_regions = ["eastus","centralus"]
     }
 
